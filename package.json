@@ -1,0 +1,24 @@
+{
+  "name": "taller_basico_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Ejercicio1_Calculadora_de_propina.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisERodriguezPa/Taller_Basico_JavaScript_Grupo12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LuisERodriguezPa/Taller_Basico_JavaScript_Grupo12/issues"
+  },
+  "homepage": "https://github.com/LuisERodriguezPa/Taller_Basico_JavaScript_Grupo12#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

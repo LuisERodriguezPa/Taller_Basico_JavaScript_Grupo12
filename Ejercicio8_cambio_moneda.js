@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 function convertirMoneda(monto, monedaDestino){
     if (monedaDestino == "usd"){
         let dolares = monto / 3700;
@@ -7,5 +8,6 @@ function convertirMoneda(monto, monedaDestino){
         console.log(monto,"Pesos son ",euros.toFixed(2),"euros")
     }
 }
-
-convertirMoneda(100000, "eur");
+let monto = Number(prompt("Ingrese el monto en pesos colombianos: "))
+let moneda = prompt("Ingrese la moneda a convertir usd o eur: ")
+convertirMoneda(monto, moneda);

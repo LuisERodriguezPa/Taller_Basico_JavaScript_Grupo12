@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 function retirarDinero(saldo, monto){
     if (monto > saldo){
         console.log("Fondos insuficiente")
@@ -6,5 +7,7 @@ function retirarDinero(saldo, monto){
         console.log("Nuevo saldo:",saldo)
     }
 }
-retirarDinero(500, 300)
+let saldo = Number(prompt("Ingrese el saldo: "));
+let monto = Number(prompt("Ingrese el monto a retirar: "));
+retirarDinero(saldo, monto)
 

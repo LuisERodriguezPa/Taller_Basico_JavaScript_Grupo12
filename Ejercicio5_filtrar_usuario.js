@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 function filtrarUsuario(usuario, edadMinima){
     let usuario_cumplen_edad = []
     for (let i in usuario){
@@ -13,4 +14,5 @@ let usuarios = [
     {nombre:"lucas", edad:20},
     {nombre:"Julian", edad: 19}
 ]
-console.log(filtrarUsuario(usuarios, 20))
+let edad = Number(prompt("Ingrese la edad: "))
+console.log(filtrarUsuario(usuarios, edad))
